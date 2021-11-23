@@ -80,7 +80,7 @@ public class MainApp {
                 hargaSewa = (int) ((sewa * (period.getDays() + (period.getMonths() * 30) + (period.getYears() * 365))) - diskon);
                 poin = waktu * 10;
                 cashback = 10000;
-                pulsa = 5000;
+                pulsa = 5000 * waktu;
             }
 
             System.out.println("Total Sewa      : Rp." + hargaSewa);
